@@ -35,7 +35,7 @@
     };
 
     scroller {
-        layers = <SECONDARY_LAYER>;
+        layers = <SCROLL_R_LAYER>;
         input-processors =
             <&zip_xy_to_scroll_mapper>,
             <&zip_scroll_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_Y_INVERT)>,
